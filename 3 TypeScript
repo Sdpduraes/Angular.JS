@@ -1,0 +1,26 @@
+So, typescript is a language created by Microsoft. 
+
+Typesrcipt is usefull to avoid javascript bugs like :
+
+function multiply(x, y) {
+  return x * y;
+}
+
+multiply('BOB', 3);
+
+
+THIS HAPPENS BECAUSE IN THIS FUNCTION YOU HAVE NO INFORMATION ABOUT , WHICH DATA TYPES CAN YOU USE AS PARAMETERS.
+
+TYPESCRIPT ALLOWS US TO USE TYPE INFORMAION IN OUR JAVASCRIPT.
+
+----------------------------------------------------<\>---------------------------------------------------------
+
+So, in this function we could solve the problem like this: 
+
+function multiply(x: number,y: number) {
+  return x * y;
+}
+
+multiply('BOB', 3); //  Automatically, BOB would be red underlined in the text editor.  
+
+min 3.59 ! to continue . . . :)

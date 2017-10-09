@@ -1,0 +1,16 @@
+So, basically, we will build an App, a RealEstate app, where we can:
+
+- sort things by lists, 
+- work with forms, 
+- create buttons that will show and hide details.
+
+We will have  a repeater that lets us take a list of data and then provide a single template for it and just 
+list out that data on the screen.
+
+We will also learn about :
+
+- pipes
+- http implementations
+- how to structure angular
+- use components and services
+- typescript

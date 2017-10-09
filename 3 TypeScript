@@ -23,4 +23,12 @@ function multiply(x: number,y: number) {
 
 multiply('BOB', 3); //  Automatically, BOB would be red underlined in the text editor.  
 
-min 3.59 ! to continue . . . :)
+----------------------------------------------------<\>----------------------------------------------------------
+
+Create a variable and define it to be one exact data type:
+
+let person: string;
+
+person = 3 => THIS WILL MAKE PERSON BE RED UNDERLINED BECAUSE WE ARE GIVING A NUMBER AS A VALUE, AND IT ONLY ADMIT STRINGS.
+
+person = 'BOB'; => THIS WILL BE ADMITED.
